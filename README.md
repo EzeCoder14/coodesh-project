@@ -21,7 +21,7 @@ A simple FastAPI service that acts as a proxy to third-party integrations like S
 ## Setup
 
 ```bash
-git clone <your_repo>
+git clone https://github.com/EzeCoder14/coodesh-project.git
 cd automation_proxy
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate
