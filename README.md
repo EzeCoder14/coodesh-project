@@ -22,7 +22,7 @@ A simple FastAPI service that acts as a proxy to third-party integrations like S
 
 ```bash
 git clone https://github.com/EzeCoder14/coodesh-project.git
-cd automation_proxy
+cd coodesh-project
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate
 pip install -r requirements.txt
