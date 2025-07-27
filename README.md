@@ -1,6 +1,39 @@
-# Project Empty Template
+# Coodash Project
 
-This is a sample repository for you to start developing the task. Please carefully read the requirements of the task statement on the platform and follow best practices on how to use this repository.
+A simple FastAPI service that acts as a proxy to third-party integrations like Salesforce and UPS.
+
+## Features
+
+- Unified endpoint `/integrate/{provider}`
+- Normalized JSON output
+- Mocked third-party providers
+- Graceful error handling
+- Extensible provider handler logic
+- API Key, Basic, and Bearer token auth support
+- Includes unit test
+
+## Tech Stack
+
+- FastAPI
+- Pydantic
+- Pytest
+
+## Setup
+
+```bash
+git clone <your_repo>
+cd automation_proxy
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+## Test
+```bash
+pytest
+```
+
 
 ## Repository Readme
 
